@@ -1,0 +1,49 @@
+body.wp-admin:not(.gutenberg-editor-page) {
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+
+
+  #carbon_fields_container_bookingsystem {
+    .cf-select {
+      display: flex;
+      align-items: center;
+
+      .cf-field__head {
+        flex: 0 0 25%;
+  
+        .cf-field__label {
+          display: inline-block;
+          margin: 0;
+          font-size: inherit;
+          line-height: 1.5;
+          font-weight: 500;
+          padding: 0!important;
+        }
+      }
+    }
+  }
+
+
+  // #adminmenuback,
+  // #adminmenuwrap {
+  //   display: none;
+  // }
+
+}
+
+.was-validated .form-control:valid, 
+.form-control.is-valid {
+  padding-right: 0!important;
+}

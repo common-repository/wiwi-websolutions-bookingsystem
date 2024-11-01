@@ -1,0 +1,36 @@
+/**
+ * Wiwi Websolutions Boekingssysteem
+ */
+body.wp-admin:not(.gutenberg-editor-page) *, body.wp-admin:not(.gutenberg-editor-page) *:before, body.wp-admin:not(.gutenberg-editor-page) *:after {
+  box-sizing: border-box;
+}
+body.wp-admin:not(.gutenberg-editor-page) .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body.wp-admin:not(.gutenberg-editor-page) #carbon_fields_container_bookingsystem .cf-select {
+  display: flex;
+  align-items: center;
+}
+body.wp-admin:not(.gutenberg-editor-page) #carbon_fields_container_bookingsystem .cf-select .cf-field__head {
+  flex: 0 0 25%;
+}
+body.wp-admin:not(.gutenberg-editor-page) #carbon_fields_container_bookingsystem .cf-select .cf-field__head .cf-field__label {
+  display: inline-block;
+  margin: 0;
+  font-size: inherit;
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 0 !important;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+  padding-right: 0 !important;
+}
+
+/*# sourceMappingURL=wiwi-websolutions-bookingsystem.css.map */
